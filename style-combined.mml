@@ -19,11 +19,6 @@
     <Stylesheet src="world-naturalearth-lowzooms.mss"/>
     <Stylesheet src="world-osm-midzooms.mss"/>
 
-    <Stylesheet src="city-area-colors.mss"/>
-    <Stylesheet src="city-line-colors.mss"/>
-    <Stylesheet src="city-line-widths.mss"/>
-    <Stylesheet src="city-road-labels.mss"/>
-
     <Layer class="shore" id="land-shapes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -360,6 +355,19 @@
             <Parameter name="file">shp/continents</Parameter>
         </Datasource>
     </Layer>
+    
+
+
+    <!--================== Above this line: global scale ====================-->
+
+    <!--================== Below this line: city-scale ======================-->
+
+
+
+    <Stylesheet src="city-area-colors.mss"/>
+    <Stylesheet src="city-line-colors.mss"/>
+    <Stylesheet src="city-line-widths.mss"/>
+    <Stylesheet src="city-road-labels.mss"/>
 
     <Layer id="processed-coast-background" srs="&epsg900913;">
         <Datasource>
