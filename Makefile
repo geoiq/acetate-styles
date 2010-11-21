@@ -161,13 +161,13 @@ acetate-foreground-17.png: style-foreground.xml
 
 
 
-style-combined.xml: style-combined.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss
+style-combined.xml: style-combined.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss city-place-labels.mss
 	cascadenik-compile.py style-combined.mml > style-combined.xml
 
-style-background.xml: style-background.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss
+style-background.xml: style-background.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss city-place-labels.mss
 	cascadenik-compile.py style-background.mml > style-background.xml
 
-style-foreground.xml: style-foreground.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss
+style-foreground.xml: style-foreground.mml world-naturalearth-lowzooms.mss world-osm-midzooms.mss city-area-colors.mss city-line-colors.mss city-line-widths.mss city-road-labels.mss city-place-labels.mss
 	cascadenik-compile.py style-foreground.mml > style-foreground.xml
 
 clean:

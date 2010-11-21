@@ -317,13 +317,6 @@
         </Datasource>
     </Layer>
 
-    <Layer status="off" id="country-labels-110m" srs="&epsg900913;">
-        <Datasource>
-            <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
-        </Datasource>
-    </Layer>
-
     <Layer id="marine-labels-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -380,6 +373,7 @@
     <Stylesheet src="city-line-colors.mss"/>
     <Stylesheet src="city-line-widths.mss"/>
     <Stylesheet src="city-road-labels.mss"/>
+    <Stylesheet src="city-place-labels.mss"/>
 
     <Layer id="processed-coast-background" srs="&epsg900913;">
         <Datasource>
@@ -391,6 +385,12 @@
             <Parameter name="table">coastline</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="null-island-background" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/null</Parameter>
         </Datasource>
     </Layer>
 
@@ -1112,6 +1112,13 @@
                  ORDER BY priority ASC, length DESC)
                  
                  AS collected_lines]]></Parameter>
+        </Datasource>
+    </Layer>
+
+    <Layer id="null-island-label" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/null</Parameter>
         </Datasource>
     </Layer>
 

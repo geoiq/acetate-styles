@@ -1,7 +1,11 @@
 Map { map-bgcolor: #b1b8b8; }
 #water-bodies[zoom>=9] { polygon-fill: #b1b8b8; }
 
-#processed-coast-background[zoom>=9] { polygon-fill: #e4e3db; }
+#processed-coast-background[zoom>=9],
+#null-island-background[zoom>=12]
+{
+    polygon-fill: #e4e3db;
+}
 
 #green-areas[zoom>=9][kind=forest],
 #green-areas[zoom>=10][kind=park],
