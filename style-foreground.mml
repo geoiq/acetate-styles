@@ -19,7 +19,7 @@
     <Stylesheet src="world-naturalearth-lowzooms.mss"/>
     <Stylesheet src="world-osm-midzooms.mss"/>
 
-    <Layer class="shore" id="land-shapes-110m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="land-shapes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -31,7 +31,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="country-shapes-110m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="country-shapes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -43,7 +43,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="country-shapes-50m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="country-shapes-50m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -55,7 +55,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="country-shapes-10m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="country-shapes-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -67,7 +67,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="processed-coast-outline" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="processed-coast-outline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -79,7 +79,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="processed-coast-inline" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="processed-coast-inline" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -104,7 +104,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="admin1-lines-50m" srs="&epsg900913;">
+    <Layer status="off" id="admin1-lines-50m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -116,7 +116,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="admin1-lines-10m" srs="&epsg900913;">
+    <Layer status="off" id="admin1-lines-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -129,7 +129,7 @@
         </Datasource>
     </Layer>
 
-    <Layer class="shore" id="lakes-110m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="lakes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -141,7 +141,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="lakes-50m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="lakes-50m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -153,7 +153,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer class="shore" id="lakes-10m" srs="&epsg900913;">
+    <Layer status="off" class="shore" id="lakes-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -166,7 +166,7 @@
         </Datasource>
     </Layer>
 
-    <Layer id="motorways-z6" srs="&epsg900913;">
+    <Layer status="off" id="motorways-z6" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -179,7 +179,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="motorways-z7" srs="&epsg900913;">
+    <Layer status="off" id="motorways-z7" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -192,7 +192,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="motorways-z8" srs="&epsg900913;">
+    <Layer status="off" id="motorways-z8" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -205,7 +205,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="motorways-z9" srs="&epsg900913;">
+    <Layer status="off" id="motorways-z9" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -381,7 +381,41 @@
     <Stylesheet src="city-line-widths.mss"/>
     <Stylesheet src="city-road-labels.mss"/>
 
-    <Layer id="processed-coast-background" srs="&epsg900913;">
+    <Stylesheet><![CDATA[
+
+        Map
+        {
+            map-bgcolor: transparent !important;
+        }
+
+        #processed-coast-shoreline[zoom>=9],
+        #water-body-shorelines[zoom>=9]
+        {
+            line-color: #e4e3db;
+        }
+
+        #processed-coast-shoreline[zoom>=9][zoom<13],
+        #water-body-shorelines[zoom>=9][zoom<13]
+        {
+            line-width: 1;
+        }
+
+        #processed-coast-shoreline[zoom>=9][zoom>=13],
+        #water-body-shorelines[zoom>=9][zoom>=13]
+        {
+            line-width: 2;
+        }
+        
+        #major-road-labels[zoom>=9][zoom<=14] name
+        {
+        	text-dy: 0;
+        	text-halo-radius: 2;
+        	text-halo-fill: #fff;
+        }
+
+    ]]></Stylesheet>
+
+    <Layer status="off" id="processed-coast-background" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -394,7 +428,7 @@
         </Datasource>
     </Layer>
 
-    <Layer id="civic-areas" srs="&epsg900913;">
+    <Layer status="off" id="civic-areas" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -416,7 +450,7 @@
                 ) AS civic]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer id="green-areas" srs="&epsg900913;">
+    <Layer status="off" id="green-areas" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -454,7 +488,7 @@
                 ) AS greens]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer id="parking-areas" srs="&epsg900913;">
+    <Layer status="off" id="parking-areas" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -474,7 +508,7 @@
                 ) AS parking]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer id="water-bodies" srs="&epsg900913;">
+    <Layer status="off" id="water-bodies" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -496,7 +530,7 @@
                 ) AS water]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer id="building-areas" srs="&epsg900913;">
+    <Layer status="off" id="building-areas" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -557,7 +591,7 @@
         Low-zoom lines, used at zoom=10 and below where
         only motorways and major roads should appear.
     -->
-    <Layer class="lo-lines lo-sublines" srs="&epsg900913;">
+    <Layer status="off" class="lo-lines lo-sublines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -692,7 +726,7 @@
         Medium-zoom lines, used at zoom=11-13 where all
         roads should appear but no bridge casings are used.
     -->
-    <Layer class="med-lines med-sublines" srs="&epsg900913;">
+    <Layer status="off" class="med-lines med-sublines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -834,7 +868,7 @@
             http://trac.mapnik.org/ticket/415
             http://trac.mapnik.org/changeset/1290
     -->
-    <Layer class="hi-lines hi-sublines" srs="&epsg900913;">
+    <Layer status="off" class="hi-lines hi-sublines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>

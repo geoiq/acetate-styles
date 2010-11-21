@@ -219,80 +219,80 @@
         </Datasource>
     </Layer>
 
-    <Layer id="place-points-z3" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z3" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z3</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z3" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z3" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z3</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-points-z4" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z4" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z4" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z4" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-points-z5" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z5" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z5" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z5" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-points-z6" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z6" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z6</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z6" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z6" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z6</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-points-z7" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z7" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z7</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z7" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z7" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z7</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-points-z8" class="place-points" srs="&epsg4326;">
+    <Layer status="off" id="place-points-z8" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-points-z8</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="place-labels-z8" class="place-labels" srs="&epsg4326;">
+    <Layer status="off" id="place-labels-z8" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/place-labels-z8</Parameter>
         </Datasource>
     </Layer>
 
-    <Layer id="admin1-labels-50m" srs="&epsg900913;">
+    <Layer status="off" id="admin1-labels-50m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -304,7 +304,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="admin1-labels-10m" srs="&epsg900913;">
+    <Layer status="off" id="admin1-labels-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -324,7 +324,7 @@
         </Datasource>
     </Layer>
 
-    <Layer id="marine-labels-110m" srs="&epsg900913;">
+    <Layer status="off" id="marine-labels-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -336,7 +336,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="marine-labels-50m" srs="&epsg900913;">
+    <Layer status="off" id="marine-labels-50m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -348,7 +348,7 @@
             <Parameter name="extent">&epsg900913_extent;</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="marine-labels-10m" srs="&epsg900913;">
+    <Layer status="off" id="marine-labels-10m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&nev_host;</Parameter>
@@ -361,7 +361,7 @@
         </Datasource>
     </Layer>
 
-    <Layer id="continent-labels" srs="&epsg4326;">
+    <Layer status="off" id="continent-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/continents</Parameter>
@@ -600,7 +600,7 @@
                  AS lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="lo-lines lo-outlines" srs="&epsg900913;">
+    <Layer status="off" class="lo-lines lo-outlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -643,7 +643,7 @@
                  AS lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="lo-lines lo-inlines" srs="&epsg900913;">
+    <Layer status="off" class="lo-lines lo-inlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -736,7 +736,7 @@
                  AS collected_lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="med-lines med-outlines" srs="&epsg900913;">
+    <Layer status="off" class="med-lines med-outlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -780,7 +780,7 @@
                  AS collected_lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="med-lines med-inlines" srs="&epsg900913;">
+    <Layer status="off" class="med-lines med-inlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -882,7 +882,7 @@
                  AS collected_lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="hi-lines hi-outlines" srs="&epsg900913;">
+    <Layer status="off" class="hi-lines hi-outlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -930,7 +930,7 @@
                  AS collected_lines]]></Parameter>
         </Datasource>
     </Layer>
-    <Layer class="hi-lines hi-inlines" srs="&epsg900913;">
+    <Layer status="off" class="hi-lines hi-inlines" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -982,7 +982,7 @@
     <!--
         Labels for towns and so forth
     -->
-    <Layer id="place-points" srs="&epsg900913;">
+    <Layer status="off" id="place-points" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -1011,7 +1011,7 @@
     <!--
         Labels for motorways and major roads.
     -->
-    <Layer id="major-road-labels" srs="&epsg900913;">
+    <Layer status="off" id="major-road-labels" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
@@ -1070,7 +1070,7 @@
     <!--
         Labels for residential and minor roads.
     -->
-    <Layer id="minor-road-labels" srs="&epsg900913;">
+    <Layer status="off" id="minor-road-labels" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
             <Parameter name="host">&osm_host;</Parameter>
