@@ -19,6 +19,21 @@
     <Stylesheet src="world-naturalearth-lowzooms.mss"/>
     <Stylesheet src="world-osm-midzooms.mss"/>
 
+    <Stylesheet><![CDATA[
+
+        Map
+        {
+            map-bgcolor: transparent !important;
+        }
+
+        .place-labels[place=city][zoom>=4][zoom<9] name
+        {
+        	text-halo-radius: 1;
+            text-halo-fill: #e4e3db;
+        }
+
+    ]]></Stylesheet>
+
     <Layer status="off" class="shore" id="land-shapes-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
