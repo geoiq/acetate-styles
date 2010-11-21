@@ -84,39 +84,37 @@ here helps define exactly which features come in at which zoom levels.
 /*
 Todo: draw names of small countries at higher zoom levels?
 */
-#country-labels-110m[zoom=3][longfrom<=3] name,
-#country-labels-110m[zoom=3][longfrom>3] shortname
+#place-labels-z3[place=country][zoom=3] name
 {
     text-face-name: 'Arial Regular';
-    text-wrap-width: 80;
+    /*text-wrap-width: 80;*/
     text-size: 12;
     text-fill: #555;
 }
 
-#country-labels-110m[zoom=4][longfrom<=4] name,
-#country-labels-110m[zoom=4][longfrom>4] shortname
+#place-labels-z4[place=country][zoom=4] name
 {
     text-face-name: 'Arial Bold';
-    text-wrap-width: 80;
+    /*text-wrap-width: 80;*/
     text-size: 12;
     text-fill: #999;
     text-halo-radius: 1;
     text-halo-fill: #e4e3db;
 }
 
-#country-labels-110m[zoom=5][longfrom<=5] name,
-#country-labels-110m[zoom=5][longfrom>5] shortname
+#place-labels-z5[place=country][zoom=5] name
 {
     text-face-name: 'Arial Bold';
-    text-wrap-width: 80;
+    /*text-wrap-width: 80;*/
     text-size: 15;
     text-fill: #999;
     text-halo-radius: 1;
     text-halo-fill: #e4e3db;
 }
 
-#country-labels-110m[zoom>=6][zoom<7][longfrom<=6] name,
-#country-labels-110m[zoom>=6][zoom<7][longfrom>6] shortname
+#place-labels-z6[place=country][zoom=6] name,
+#place-labels-z7[place=country][zoom=7] name,
+#place-labels-z8[place=country][zoom=8] name
 {
     text-face-name: 'Arial Bold';
     text-wrap-width: 80;
@@ -142,52 +140,52 @@ Todo: draw names of small countries at higher zoom levels?
 #admin1-labels-50m[zoom=7]{ text-size: 13; }
 #admin1-labels-50m[zoom=8]{ text-size: 18; }
 
-#city-points-z4[zoom=4],
-#city-points-z5[zoom=5],
-#city-points-z6[zoom=6],
-#city-points-z7[zoom=7],
-#city-points-z8[zoom=8]
+#place-points-z4[place=city][zoom=4],
+#place-points-z5[place=city][zoom=5],
+#place-points-z6[place=city][zoom=6],
+#place-points-z7[place=city][zoom=7],
+#place-points-z8[place=city][zoom=8]
 {
     point-file: url('gray-point.png');
 }
 
-#city-points-z6[name="Washington"][zoom=6]
+#place-points-z6[place=city][name="Washington"][zoom=6]
 {
     point-file: url('star.png');
 }
 
-#city-points-z6[name="Berlin"][zoom=6]
+#place-points-z6[place=city][name="Berlin"][zoom=6]
 {
     point-file: url('star.png');
 }
 
-#city-points-z6[name="Prague"][zoom=6]
+#place-points-z6[place=city][name="Prague"][zoom=6]
 {
     point-file: url('star.png');
 }
 
-#city-points-z6[name="Warsaw"][zoom=6]
+#place-points-z6[place=city][name="Warsaw"][zoom=6]
 {
     point-file: url('star.png');
 }
 
-#city-points-z6[name="Brussels"][zoom=6]
+#place-points-z6[place=city][name="Brussels"][zoom=6]
 {
     point-file: url('star.png');
 }
 
-#city-points-z6[name="Paris"][zoom=6]
+#place-points-z6[place=city][name="Paris"][zoom=6]
 {
     point-file: url('star.png');
 }
 
 
 
-#city-labels-z4[zoom=4] name,
-#city-labels-z5[zoom=5] name,
-#city-labels-z6[zoom=6] name,
-#city-labels-z7[zoom=7] name,
-#city-labels-z8[zoom=8] name
+#place-labels-z4[place=city][zoom=4] name,
+#place-labels-z5[place=city][zoom=5] name,
+#place-labels-z6[place=city][zoom=6] name,
+#place-labels-z7[place=city][zoom=7] name,
+#place-labels-z8[place=city][zoom=8] name
 {
     text-allow-overlap: true;
     text-face-name: 'Arial Regular';
@@ -197,39 +195,39 @@ Todo: draw names of small countries at higher zoom levels?
 /*
 City Labels ZOOM 4
 */
-.city-labels[zoom=4] name { text-size: 10; }
-.city-labels[zoom=4][population>=25000] name { text-size: 10; }
-.city-labels[zoom=4][population>=100000] name { text-size: 12; }
-.city-labels[zoom=4][population>=1000000] name { text-size: 12; }
+.place-labels[place=city][zoom=4] name { text-size: 10; }
+.place-labels[place=city][zoom=4][population>=25000] name { text-size: 10; }
+.place-labels[place=city][zoom=4][population>=100000] name { text-size: 12; }
+.place-labels[place=city][zoom=4][population>=1000000] name { text-size: 12; }
 
 /*
 City Labels ZOOM 5
 */
-.city-labels[zoom=5] name { text-size: 10; }
-.city-labels[zoom=5][population>=25000] name { text-size: 10; }
-.city-labels[zoom=5][population>=100000] name { text-size: 10; }
-.city-labels[zoom=5][population>=1000000] name { text-size: 15; }
+.place-labels[place=city][zoom=5] name { text-size: 10; }
+.place-labels[place=city][zoom=5][population>=25000] name { text-size: 10; }
+.place-labels[place=city][zoom=5][population>=100000] name { text-size: 10; }
+.place-labels[place=city][zoom=5][population>=1000000] name { text-size: 15; }
 
 /*
 City Labels ZOOM 6
 */
-.city-labels[zoom=6] name { text-size: 10; }
-.city-labels[zoom=6][population>=25000] name { text-size: 10; }
-.city-labels[zoom=6][population>=100000] name { text-size: 13; }
-.city-labels[zoom=6][population>=1000000] name { text-size: 18; }
+.place-labels[place=city][zoom=6] name { text-size: 10; }
+.place-labels[place=city][zoom=6][population>=25000] name { text-size: 10; }
+.place-labels[place=city][zoom=6][population>=100000] name { text-size: 13; }
+.place-labels[place=city][zoom=6][population>=1000000] name { text-size: 18; }
 
 /*
 City Labels ZOOM 7
 */
-.city-labels[zoom=7] name { text-size: 10; }
-.city-labels[zoom=7][population>=25000] name { text-size: 10; }
-.city-labels[zoom=7][population>=100000] name { text-size: 13; }
-.city-labels[zoom=7][population>=1000000] name { text-size: 18; }
+.place-labels[place=city][zoom=7] name { text-size: 10; }
+.place-labels[place=city][zoom=7][population>=25000] name { text-size: 10; }
+.place-labels[place=city][zoom=7][population>=100000] name { text-size: 13; }
+.place-labels[place=city][zoom=7][population>=1000000] name { text-size: 18; }
 
 /*
 City Labels ZOOM 8
 */
-.city-labels[zoom=8] name { text-size: 10; }
-.city-labels[zoom=8][population>=25000] name { text-size: 13; }
-.city-labels[zoom=8][population>=100000] name { text-size: 18; }
-.city-labels[zoom=8][population>=1000000] name { text-size: 18; }
+.place-labels[place=city][zoom=8] name { text-size: 10; }
+.place-labels[place=city][zoom=8][population>=25000] name { text-size: 13; }
+.place-labels[place=city][zoom=8][population>=100000] name { text-size: 18; }
+.place-labels[place=city][zoom=8][population>=1000000] name { text-size: 18; }

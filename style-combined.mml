@@ -219,64 +219,76 @@
         </Datasource>
     </Layer>
 
-    <Layer id="city-points-z4" class="city-points" srs="&epsg4326;">
+    <Layer id="place-points-z3" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z4</Parameter>
+            <Parameter name="file">shp/place-points-z3</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-labels-z4" class="city-labels" srs="&epsg4326;">
+    <Layer id="place-labels-z3" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z4</Parameter>
+            <Parameter name="file">shp/place-labels-z3</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-points-z5" class="city-points" srs="&epsg4326;">
+    <Layer id="place-points-z4" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z5</Parameter>
+            <Parameter name="file">shp/place-points-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-labels-z5" class="city-labels" srs="&epsg4326;">
+    <Layer id="place-labels-z4" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z5</Parameter>
+            <Parameter name="file">shp/place-labels-z4</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-points-z6" class="city-points" srs="&epsg4326;">
+    <Layer id="place-points-z5" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z6</Parameter>
+            <Parameter name="file">shp/place-points-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-labels-z6" class="city-labels" srs="&epsg4326;">
+    <Layer id="place-labels-z5" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z6</Parameter>
+            <Parameter name="file">shp/place-labels-z5</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-points-z7" class="city-points" srs="&epsg4326;">
+    <Layer id="place-points-z6" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z7</Parameter>
+            <Parameter name="file">shp/place-points-z6</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-labels-z7" class="city-labels" srs="&epsg4326;">
+    <Layer id="place-labels-z6" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z7</Parameter>
+            <Parameter name="file">shp/place-labels-z6</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-points-z8" class="city-points" srs="&epsg4326;">
+    <Layer id="place-points-z7" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-points-z8</Parameter>
+            <Parameter name="file">shp/place-points-z7</Parameter>
         </Datasource>
     </Layer>
-    <Layer id="city-labels-z8" class="city-labels" srs="&epsg4326;">
+    <Layer id="place-labels-z7" class="place-labels" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
-            <Parameter name="file">shp/city-labels-z8</Parameter>
+            <Parameter name="file">shp/place-labels-z7</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="place-points-z8" class="place-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-points-z8</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="place-labels-z8" class="place-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-labels-z8</Parameter>
         </Datasource>
     </Layer>
 
@@ -305,7 +317,7 @@
         </Datasource>
     </Layer>
 
-    <Layer id="country-labels-110m" srs="&epsg900913;">
+    <Layer status="off" id="country-labels-110m" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
             <Parameter name="file">shp/admin_0_countries_110m-points</Parameter>
