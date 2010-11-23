@@ -196,8 +196,6 @@
 
 .hi-inlines[highway=service][zoom=15] { line-width: 0.5; }
 
-.hi-inlines[kind=minor_road][zoom=15] { line-width: 6; }
-
 .hi-inlines[kind=path][zoom=15] { line-width: 1; }
 
 
