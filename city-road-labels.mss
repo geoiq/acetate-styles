@@ -10,6 +10,11 @@
     text-spacing: 100;
 }
 
+#major-road-labels[highway=motorway] name
+{
+    text-spacing: 300;
+}
+
 #major-road-labels[zoom>=15] name
 {
     text-halo-radius: 1;
@@ -29,29 +34,35 @@
 
 
 #major-road-labels[zoom=12] name { text-dy: 6; }
+#major-road-labels[highway=motorway][zoom=12] name { text-size: 10; }
 #major-road-labels[highway=trunk][zoom=12] name { text-size: 10; }
 #major-road-labels[highway=primary][zoom=12] name { text-size: 10; }
 
 #major-road-labels[zoom=13] name { text-dy: 6; }
+#major-road-labels[highway=motorway][zoom=13] name { text-size: 10; }
 #major-road-labels[highway=trunk][zoom=13] name { text-size: 10; }
 #major-road-labels[highway=primary][zoom=13] name { text-size: 10; }
 
 #major-road-labels[zoom=14] name { text-dy: 7; }
+#major-road-labels[highway=motorway][zoom=14] name { text-size: 11; }
 #major-road-labels[highway=trunk][zoom=14] name { text-size: 11; }
 #major-road-labels[highway=primary][zoom=14] name { text-size: 11; }
 #major-road-labels[highway=secondary][zoom=14] name { text-size: 10; }
 
+#major-road-labels[highway=motorway][zoom=15] name { text-size: 12; }
 #major-road-labels[highway=trunk][zoom=15] name { text-size: 12; }
 #major-road-labels[highway=primary][zoom=15] name { text-size: 12; }
 #major-road-labels[highway=secondary][zoom=15] name { text-size: 11; }
 #major-road-labels[highway=tertiary][zoom=15] name { text-size: 11; }
 
+#major-road-labels[highway=motorway][zoom=16] name { text-size: 14; }
 #major-road-labels[highway=trunk][zoom=16] name { text-size: 14; }
 #major-road-labels[highway=primary][zoom=16] name { text-size: 12; }
 #major-road-labels[highway=secondary][zoom=16] name { text-size: 12; }
 #major-road-labels[highway=tertiary][zoom=16] name { text-size: 11; }
 #minor-road-labels[zoom=16] name { text-size: 10; }
 
+#major-road-labels[highway=motorway][zoom=17] name { text-size: 16; }
 #major-road-labels[highway=trunk][zoom=17] name { text-size: 16; }
 #major-road-labels[highway=primary][zoom=17] name { text-size: 14; }
 #major-road-labels[highway=secondary][zoom=17] name { text-size: 14; }
