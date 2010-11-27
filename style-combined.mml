@@ -982,6 +982,45 @@
     <!--
         Labels for towns and so forth
     -->
+    <Layer id="place-points-z9" class="place-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-points-z9</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="place-labels-z9" class="place-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-labels-z9</Parameter>
+        </Datasource>
+    </Layer>
+    <!--
+    <Layer id="place-points-z10" class="place-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-points-z10</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="place-labels-z10" class="place-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-labels-z10</Parameter>
+        </Datasource>
+    </Layer>
+    -->
+    <Layer id="place-points-z11plus" class="place-points" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-points-z11plus</Parameter>
+        </Datasource>
+    </Layer>
+    <Layer id="place-labels-z11plus" class="place-labels" srs="&epsg4326;">
+        <Datasource>
+            <Parameter name="type">shape</Parameter>
+            <Parameter name="file">shp/place-labels-z11plus</Parameter>
+        </Datasource>
+    </Layer>
+    <!--
     <Layer id="place-points" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
@@ -1007,6 +1046,7 @@
                 ) AS places]]></Parameter>
         </Datasource>
     </Layer>
+    -->
 
     <!--
         Labels for motorways and major roads.

@@ -114,7 +114,10 @@ Todo: draw names of small countries at higher zoom levels?
 
 #place-labels-z6[place=country][zoom=6] name,
 #place-labels-z7[place=country][zoom=7] name,
-#place-labels-z8[place=country][zoom=8] name
+#place-labels-z8[place=country][zoom=8] name,
+#place-labels-z9[place=country][zoom=9] name,
+#place-labels-z10[place=country][zoom=10] name,
+#place-labels-z11plus[place=country][zoom>=11][zoom<16] name
 {
     text-face-name: 'Arial Bold';
     text-wrap-width: 80;
@@ -164,9 +167,12 @@ Todo: draw names of small countries at higher zoom levels?
 #place-labels-z5[place=city][zoom=5] name,
 #place-labels-z6[place=city][zoom=6] name,
 #place-labels-z7[place=city][zoom=7] name,
-#place-labels-z8[place=city][zoom=8] name
+#place-labels-z8[place=city][zoom=8] name,
+#place-labels-z9[place=city][zoom=9] name,
+#place-labels-z10[place=city][zoom=10] name,
+#place-labels-z11plus[place=city][zoom>=11][zoom<16] name
 {
-    text-allow-overlap: true;
+    /*text-allow-overlap: true;*/
     text-face-name: 'Arial Regular';
     text-fill: #555;
 }
@@ -210,3 +216,27 @@ City Labels ZOOM 8
 .place-labels[place=city][zoom=8][population>=50000] name { text-size: 13; }
 .place-labels[place=city][zoom=8][population>=250000] name { text-size: 18; }
 .place-labels[place=city][zoom=8][population>=2500000] name { text-size: 18; }
+
+/*
+City Labels ZOOM 9
+*/
+.place-labels[place=city][zoom=9] name { text-size: 10; }
+.place-labels[place=city][zoom=9][population>=50000] name { text-size: 13; }
+.place-labels[place=city][zoom=9][population>=250000] name { text-size: 18; }
+.place-labels[place=city][zoom=9][population>=2500000] name { text-size: 18; }
+
+/*
+City Labels ZOOM 10
+*/
+.place-labels[place=city][zoom=10] name { text-size: 10; }
+.place-labels[place=city][zoom=10][population>=50000] name { text-size: 13; }
+.place-labels[place=city][zoom=10][population>=250000] name { text-size: 18; }
+.place-labels[place=city][zoom=10][population>=2500000] name { text-size: 18; }
+
+/*
+City Labels ZOOM 11+
+*/
+.place-labels[place=city][zoom>=11][zoom<16] name { text-size: 10; }
+.place-labels[place=city][zoom>=11][zoom<16][population>=50000] name { text-size: 13; }
+.place-labels[place=city][zoom>=11][zoom<16][population>=250000] name { text-size: 18; }
+.place-labels[place=city][zoom>=11][zoom<16][population>=2500000] name { text-size: 18; }
