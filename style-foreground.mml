@@ -1043,7 +1043,6 @@
             <Parameter name="file">shp/place-labels-z9</Parameter>
         </Datasource>
     </Layer>
-    <!--
     <Layer id="place-points-z10" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>
@@ -1056,7 +1055,6 @@
             <Parameter name="file">shp/place-labels-z10</Parameter>
         </Datasource>
     </Layer>
-    -->
     <Layer id="place-points-z11plus" class="place-points" srs="&epsg4326;">
         <Datasource>
             <Parameter name="type">shape</Parameter>

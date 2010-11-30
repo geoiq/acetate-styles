@@ -172,7 +172,7 @@ Todo: draw names of small countries at higher zoom levels?
 #place-labels-z10[place=city][zoom=10] name,
 #place-labels-z11plus[place=city][zoom>=11][zoom<16] name
 {
-    /*text-allow-overlap: true;*/
+    text-allow-overlap: true;
     text-face-name: 'Arial Regular';
     text-fill: #555;
 }
